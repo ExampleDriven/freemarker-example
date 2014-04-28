@@ -6,11 +6,11 @@ import java.io.IOException;
 import java.io.StringWriter;
 
 @Component
-public class FreemarkerEngine {
+public class FreeMarkerEngine {
 
     private Configuration configuration = new Configuration();
 
-    public FreemarkerEngine() {
+    public FreeMarkerEngine() {
 
         configuration.setClassForTemplateLoading(getClass(), "/");
         configuration.setObjectWrapper(new DefaultObjectWrapper());
