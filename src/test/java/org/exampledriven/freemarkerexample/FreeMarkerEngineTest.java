@@ -1,6 +1,5 @@
-package org.exampledriven.freemarkerexample2.freemarkerexample;
+package org.exampledriven.freemarkerexample;
 
-import org.exampledriven.freemarkerexample.FreeMarkerEngine;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
